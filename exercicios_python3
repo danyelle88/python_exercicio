@@ -1,0 +1,17 @@
+    
+nota1 = float(input ("escreva sua primeira nota:"));
+nota2 = float(input ("escreva sua segunda nota:"));
+nota3 = float(input ("escreva sua terceira  nota:"));
+
+media = (nota1 + nota2 + nota3) % 2 ; 
+
+
+if media >= 7.0 :
+    print ("aprovado");
+    
+elif media == 5 :
+    print ("recuperacao");
+    
+else :
+    print ("reprovada "); 
+    
