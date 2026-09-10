@@ -1,0 +1,14 @@
+n1= int(input ("digite um numero :"));
+n2= int(input ("digite um segundo numero "));
+
+adicao  = n1 + n2;
+print ("\nadicao = ", adicao);
+
+subtracao  = n1 - n2;
+print ("\nsubtracao = " ,subtracao);
+
+multiplicacao  = n1 * n2;
+print ("\nmultiplicacao =", multiplicacao);
+
+divisao  = n1 % n2;
+print ("\ndivisao = " , divisao);
